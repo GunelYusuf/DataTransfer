@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9D6E13C2-442B-4E84-8A4D-8D6752C7D67B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Data-Transfer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data-Transfer/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Data-Transfer/Controllers/HomeController.cs" Line="22" Column="13" />
+      <File FileName="Data-Transfer/Views/Home/Index.cshtml" Line="23" Column="13" />
+      <File FileName="Data-Transfer/Views/Shared/_Layout.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Data-Transfer" expanded="True" selected="True">
+            <Node name="Data-Transfer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

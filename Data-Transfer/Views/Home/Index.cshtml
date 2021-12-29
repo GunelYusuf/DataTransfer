@@ -1,0 +1,156 @@
+﻿@model HomeVM
+
+
+@{
+    ViewData["title"] = "Index";
+    @*int count = 0;*@
+}
+<div class="container">
+    <div class="row">
+        <h1>Index</h1>
+
+        @*<p>Student name: @ViewBag.Name</p>*@
+
+        @*<p>Name: @ViewBag.Name</p>
+        <p>Profession: @ViewData["Profession"]</p>
+        <p>Age: @TempData["Age"]</p>*@
+
+        @*<p>
+            @foreach (var item in Model.arr)
+            {
+                <tr>@item</tr>
+
+            }
+        </p>*@
+        @*<table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Count</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Students)
+                {
+                   
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Age</td>
+                        <td>@item.Address</td>
+                    </tr>
+
+                 }   
+
+            </tbody>
+        </table>*@
+
+
+    </div>
+</div>
+
+
+
+@*<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Count</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in (List<Students>)ViewData["stu"])
+                {
+                    count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>@item.Id</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Age</td>
+                        <td>@item.Address</td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>*@
+
+
+
+
+
+@*<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Count</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in (List<Students>)ViewBag.Students)
+                {
+                    count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>@item.Id</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Age</td>
+                        <td>@item.Address</td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>*@
+
+
+@*<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Count</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                 {
+                    count++;
+                <tr>
+                    <td>@count</td>
+                    <td>@item.Id</td>
+                    <td>@item.FullName</td>
+                    <td>@item.Age</td>
+                    <td>@item.Address</td>
+                </tr>
+
+                 }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>*@

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Data_Transfer</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'DataTransfer' " />
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Views\Home\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Main\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Main\" />
+  </ItemGroup>
+</Project>

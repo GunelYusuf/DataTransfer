@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{9D6E13C2-442B-4E84-8A4D-8D6752C7D67B}|DataTransfer">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data-Transfer/Startup.cs">
+    <Files>
+      <File FileName="Data-Transfer/Views/Main/Index.cshtml" Line="22" Column="54" />
+      <File FileName="Data-Transfer/ViewModels/MainVM.cs" Line="9" Column="8" />
+      <File FileName="Data-Transfer/ViewModels/HomeVM.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Controllers/MainController.cs" Line="6" Column="1" />
+      <File FileName="Data-Transfer/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Models/Students.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Models/Companies.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Models/Employees.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Program.cs" Line="1" Column="1" />
+      <File FileName="Data-Transfer/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DataTransfer" expanded="True">
+            <Node name="DataTransfer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Main" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DataTransfer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
